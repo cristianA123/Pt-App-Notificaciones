@@ -5,6 +5,10 @@ Este es un proyecto de tipo de cambio desarrollado con:
  * con Docker para manejar la bd
  * React vite 
 
+
+## Documentacion
+http://localhost:3000/api/#/Auth
+
 ## Levantar proyecto back
 * crear `.env` copiando el `.env.example`
  * ejecutar el comando para levantar la bd en Docker

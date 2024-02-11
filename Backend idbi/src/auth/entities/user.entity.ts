@@ -1,7 +1,6 @@
 
 import { BeforeInsert, BeforeUpdate, Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { Min } from 'class-validator';
-import { Product } from 'src/products/entities';
 import { Incident } from 'src/incidents/entities/incident.entity';
 
 @Entity('users')
@@ -47,12 +46,6 @@ export class User {
 
     @OneToMany(() => Incident, (incident) => incident.user)
     incident: Incident[];
-
-    @OneToMany(
-        ( ) => Product,
-        ( product ) => product.user
-    )
-    product: Product;
 
     @BeforeInsert()
     checkFieldsBeforeInsert(){

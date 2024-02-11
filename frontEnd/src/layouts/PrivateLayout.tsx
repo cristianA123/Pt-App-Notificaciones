@@ -61,11 +61,11 @@ export const PrivateLayout = () => {
   return (
     <>
       <NavBar />
-      <Container fluid className="bg-success p-4">
+      <Container fluid className="p-4">
         <main>
         <Row className="">
           {/* <SideBar /> */}
-          <Col md={12} className="bg-primary">
+          <Col md={12} className="">
             <Outlet />
           </Col>
         </Row>

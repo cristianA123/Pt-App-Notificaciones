@@ -22,9 +22,9 @@ export const SearchComponent = ({
   return (
     <div>
       <Row className="pb-2">
-        <Col md={9} className="bg-primary">
+        <Col md={9} className="">
           <Row className="">
-            <Col md={8} className="bg-primary">
+            <Col md={8} className="">
               <Form>
                 <Form.Group
                   className="mb-3"
